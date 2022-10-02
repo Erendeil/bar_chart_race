@@ -16,7 +16,8 @@ Install with either:
 * `pip install bar_chart_race`
 * `conda install -c conda-forge bar_chart_race`
 
-## Quickstart
+![F6F1FF73-9E7E-4580-87E9-775E05C3356B](https://user-images.githubusercontent.com/114875370/193467352-23b05cc2-a593-4302-a9e6-2454390bc1f0.jpeg)
+z## Quickstart
 
 Begin with a pandas DataFrame containing 'wide' data where:
 
@@ -40,9 +41,10 @@ The above animation was created with the help of matplotlib using the following 
 
 ```python
 import bar_chart_race
-df = bcr.load_dataset('covid19_tutorial')
+df = bcr.load_dataset('fut channels_tutorial')
 df.bcr.bar_chart_race(
-        filename='../docs/images/covid19_horiz.gif',
+        filename='../docs/images/
+        gif',
         orientation='h',
         sort='desc',
         n_bars=8,
@@ -59,8 +61,8 @@ df.bcr.bar_chart_race(
                                           'ha': 'right', 'size': 11},
         perpendicular_bar_func='median',
         colors='dark12',
-        title='COVID-19 Deaths by Country',
-        bar_size=.95,
+        title='loved fut channels',
+        bar_size=.4631,
         bar_textposition='inside',
         bar_texttemplate='{x:,.0f}',
         bar_label_font=7,
